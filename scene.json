@@ -1,0 +1,51 @@
+{
+  "display": {
+    "title": "Metajuku",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "MorrisMustang",
+    "email": "metabuilders.io@gmail.com"
+  },
+  "owner": "0x65b427aff7994c22f03a25678eeb0ae6bb2266db",
+  "scene": {
+    "parcels": [
+      "94,20",
+      "95,20",
+      "96,20",
+      "94,21",
+      "95,21",
+      "96,21"
+    ],
+    "base": "94,20"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": []
+  },
+  "requiredPermissions": [],
+  "main": "bin/game.js",
+  "tags": [],
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 16
+      },
+      "cameraTarget": {
+        "x": 16,
+        "y": 1,
+        "z": 16
+      }
+    }
+  ]
+}
